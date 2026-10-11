@@ -1,0 +1,35 @@
+{
+  "environment": {
+    "astrbot_version": "4.28.2",
+    "installation": "isolated editable local plugin installation",
+    "chat_model": "gpt-4.1-mini through the generic OpenAI-compatible source",
+    "marketplace_installation": "not tested; AstrBot Cloud listing pending"
+  },
+  "primary_case": {
+    "model": "veo31-fast",
+    "action": "text2video",
+    "resolution": "API default",
+    "generation_tool": "veo_generate_video",
+    "generation_tool_calls": 1,
+    "lookup_tool": "veo_get_task",
+    "lookup_tool_calls_in_chat": 2,
+    "lookup_note": "The first lookup returned pending; the second lookup of the same task ID returned terminal success. No second generation was submitted.",
+    "task_id": "150f2f75-d16d-44ba-9c37-2c0e3e1286c6",
+    "trace_id": "d31fa371-3472-4804-a420-7625c60d5ab0",
+    "terminal_status": "succeeded",
+    "video_count": 1,
+    "video_url": "https://platform2.cdn.acedata.cloud/veo/150f2f75-d16d-44ba-9c37-2c0e3e1286c6.mp4",
+    "media_http_status": 200,
+    "media_content_type": "video/mp4",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "video_width": 1280,
+    "video_height": 720,
+    "duration_seconds": 8.0,
+    "usage_api_path": "/veo/videos",
+    "usage_status_code": 200,
+    "task_list_amount_credits": 0.72,
+    "usage_deducted_credits": 0.648
+  },
+  "scope_limit": "Text-to-video and same-task lookup were run through AstrBot chat. Image-to-video, other models, and optional resolutions were validated structurally but not generated. Official market installation remains open."
+}

@@ -1,0 +1,13 @@
+name: astrbot_plugin_veo_acedatacloud
+display_name: Veo by Ace Data Cloud
+short_desc: Generate one Veo video and retrieve the final result in chat.
+desc: Submit a Veo text or image video job through your Ace Data Cloud account, then query the same task ID for final video URLs.
+version: 0.1.0
+author: acedatacloud
+repo: https://github.com/AceDataCloud/VeoAstrBot
+astrbot_version: ">=4.28.2,<5"
+tags:
+  - Veo
+  - AI video
+  - video generation
+  - Ace Data Cloud
