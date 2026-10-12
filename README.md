@@ -2,7 +2,7 @@
 
 Generate one Veo video in an AstrBot conversation through your own Ace Data Cloud account. `veo_generate_video` submits one text or image video job, and `veo_get_task` retrieves the same task until its final video is ready.
 
-[简体中文指南](readme/README_zh_Hans.md) · [Veo Videos API](https://platform.acedata.cloud/documents/veo-videos) · [Veo Tasks API](https://platform.acedata.cloud/documents/veo-tasks) · [Current prices](https://platform.acedata.cloud/services/veo)
+[简体中文指南](readme/README_zh_Hans.md) · [Veo Videos API](https://platform.acedata.cloud/documents/veo-videos?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=veoastrbot_readme_documents_veo_videos) · [Veo Tasks API](https://platform.acedata.cloud/documents/veo-tasks?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=veoastrbot_readme_documents_veo_tasks) · [Current prices](https://platform.acedata.cloud/services/veo?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=veoastrbot_readme_services_veo)
 
 ## Find and install
 
@@ -12,7 +12,9 @@ The official AstrBot Cloud listing is pending. After the source release is merge
 
 ## Configure your key
 
-In [Ace Data Cloud Applications](https://platform.acedata.cloud/console/applications), copy a generation API key from your General application or create a key that permits both `/veo/videos` and `/veo/tasks`. Check the current model and resolution price and your balance before submitting. Paste the key into the plugin's **Ace Data Cloud generation API key with Veo access** setting. Do not add `Bearer ` or use a `platform-...` management token. AstrBot masks the field in WebUI but stores the original value in its data directory, which should be protected.
+New account? Register and sign in first. If the Applications page has no General application yet, choose **Initialize General Application**, then continue with the key steps below.
+
+In [Ace Data Cloud Applications](https://platform.acedata.cloud/console/applications?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=veoastrbot_readme_api_key), copy a generation API key from your General application or create a key that permits both `/veo/videos` and `/veo/tasks`. Check the current model and resolution price and your balance before submitting. Paste the key into the plugin's **Ace Data Cloud generation API key with Veo access** setting. Do not add `Bearer ` or use a `platform-...` management token. AstrBot masks the field in WebUI but stores the original value in its data directory, which should be protected.
 
 Select a chat model that supports tool calling. Allow both Veo tools in the conversation's profile and persona.
 
